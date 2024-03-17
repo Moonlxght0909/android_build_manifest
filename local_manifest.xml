@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Remotes -->
+ <remote name="crDroid-gitlab"
+         fetch="https://gitlab.com/crdroidandroid/"
+         clone-depth="1" />
+
+ <!-- Trees -->
+ <project path="device/xiaomi/vayu"
+          name="crdroidandroid/android_device_xiaomi_vayu"
+          remote="github"
+          revision="14.0" />
+
+ <project path="device/xiaomi/sm8150-common"
+          name="crdroidandroid/android_device_xiaomi_sm8150-common"
+          remote="github"
+          revision="14.0" />
+ 
+ <project path="vendor/xiaomi"
+          name="proprietary_vendor_xiaomi"
+          remote="crDroid-gitlab"
+          revision="14.0" />
+ 
+ <project path="kernel/xiaomi/sm8150"
+          name="crdroidandroid/android_kernel_xiaomi_sm8150"
+          remote="github"
+          revision="14.0" />
+
+ <project path="hardware/xiaomi"
+          name="LineageOS/android_hardware_xiaomi"
+          remote="github"
+          revision="14.0" />
+
+</manifest>
