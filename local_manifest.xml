@@ -30,6 +30,6 @@
  <project path="hardware/xiaomi"
           name="LineageOS/android_hardware_xiaomi"
           remote="github"
-          revision="14.0" />
+          revision="lineage-21" />
 
 </manifest>
