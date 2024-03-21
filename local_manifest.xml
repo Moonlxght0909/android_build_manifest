@@ -32,10 +32,4 @@
           remote="github"
           revision="lineage-21" />
 
-  <!-- Clang -->
- <project path="prebuilts/clang/host/linux-x86/clang-r510928"
-          name="clang-r510928"
-          remote="crDroid-gitlab"
-          revision="14.0" />
- 
 </manifest>
