@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!-- Remotes -->
+    <remote name="gh"
+            fetch="https://github.com"
+            clone-depth="1" />
+
+    <remote name="gitlab"
+            fetch="https://gitlab.com"
+            clone-depth="1" />
+
+ <!--Tree -->
+ <project path="device/xiaomi/vayu" name="crdroidandroid/android_device_xiaomi_vayu" remote="gh" revision="14.0" />
+ <project path="device/xiaomi/sm8150-common" name="crdroidandroid/android_device_xiaomi_sm8150-common" remote="gh" revision="14.0" />
+ 
+ <!--Kernel -->
+ <project path="kernel/xiaomi/sm8150" name="crdroidandroid/android_kernel_xiaomi_sm8150" remote="gh" revision="14.0" />
+ 
+ <!--Vendor -->
+ <project path="vendor/xiaomi/vayu" name="crdroidandroid/proprietary_vendor_xiaomi_vayu" remote="gitlab" revision="14.0" />
+ <project path="vendor/xiaomi/sm8150-common" name="crdroidandroid/proprietary_vendor_xiaomi_sm8150-common" remote="gitlab" revision="14.0" />
+ <project path="vendor/xiaomi/miuicamera" name="crdroidandroid/proprietary_vendor_xiaomi_miuicamera" remote="gitlab" revision="14.0" />
+ 
+ <!--Extras -->
+ <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="gh" revision="lineage-21" />
+ <project path="prebuilts/clang/host/linux-86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r510928" remote="gitlab" revision="14.0" />
+ 
+</manifest>
