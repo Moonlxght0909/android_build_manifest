@@ -19,5 +19,6 @@
  
  <!--Extras -->
  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="gh" revision="lineage-21" />
-
+ <project path="prebuilts/clang/host/linux-86/clang-r510928" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r510928" remote="gitlab" revision="14.0" />
+ 
 </manifest>
