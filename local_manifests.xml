@@ -5,6 +5,10 @@
             fetch="https://github.com"
             clone-depth="1" />
 
+    <remote name="gitlab"
+            fetch="https://gitlab.com"
+            clone-depth="1" />
+
  <!--Tree -->
  <project path="device/xiaomi/vayu" name="crdroidandroid/android_device_xiaomi_vayu" remote="gh" revision="14.0" />
  <project path="device/xiaomi/sm8150-common" name="Moonlxght0909/android_device_xiaomi_sm8150-common" remote="gh" revision="14.0" />
